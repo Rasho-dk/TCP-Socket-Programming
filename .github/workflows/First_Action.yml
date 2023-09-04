@@ -24,5 +24,5 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Good bye!
-        run: Galaxy "Done!"
+        run: Galaxy-Done!
          
