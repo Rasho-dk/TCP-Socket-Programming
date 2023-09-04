@@ -21,8 +21,7 @@ jobs:
         #run key is belong to the name. 
         # Runs a set of commands using the runners shell
         run: echo Hello, world!
-
       # Runs a set of commands using the runners shell
       - name: Good bye!
-        run: Galaxy-Done!
+        run: echo "Galaxy - Done!"
          
