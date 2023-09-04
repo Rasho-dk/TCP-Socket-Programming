@@ -18,5 +18,3 @@ modifiedSentence = clientSocket.recv(2048)
 #decode() bruges til at konvertere en bytes af data til en tekststrnge. 
 print ('From Server:', modifiedSentence.decode())
 clientSocket.close()
-
-print("sad")

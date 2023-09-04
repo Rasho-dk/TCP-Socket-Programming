@@ -26,3 +26,4 @@ capitalizedSentence = sentence.upper()
 connectionSocket.send(capitalizedSentence.encode())
 #lukker forbindelsen
 connectionSocket.close()
+print()
