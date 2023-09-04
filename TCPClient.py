@@ -19,3 +19,4 @@ modifiedSentence = clientSocket.recv(2048)
 print ('From Server:', modifiedSentence.decode())
 clientSocket.close()
 
+print("sad")
