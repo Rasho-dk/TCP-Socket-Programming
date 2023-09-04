@@ -1,6 +1,6 @@
 from socket import *
 serverPort = 12000
-serverHost ='192.168.0.37'
+serverHost =''
 #serverSocket er ligsom en dør som venter at modtage data.
 serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind((serverHost,serverPort))

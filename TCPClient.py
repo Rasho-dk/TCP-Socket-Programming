@@ -1,6 +1,6 @@
 from socket import *
 serverPort = 12000
-serverHost = '192.168.0.37'
+serverHost = ''
 
 #AF_INET betyder den bruger IPv4 hvilke der bruger 32-bit addresses
 #SOCK_STREAM betyder den bruger TCP
