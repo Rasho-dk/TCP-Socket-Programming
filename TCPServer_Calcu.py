@@ -37,3 +37,4 @@ while True:
     connectionSocket.send(str(result).encode())
     print("Result is sent")
 connectionSocket.close()
+#
