@@ -1,6 +1,6 @@
 from socket import *
 serverPort = 12000
-serverHost =''
+serverHost ='192.168.0.37'
 #serverSocket er ligsom en dør som venter at modtage data.
 serverSocket = socket(AF_INET, SOCK_STREAM)
 serverSocket.bind((serverHost,serverPort))
@@ -19,6 +19,8 @@ connectionSocket, addr = serverSocket.accept()
 #modtager data fra clienten
 print(f'Connected by {addr}')
 sentence = connectionSocket.recv(1024).decode()
+resu = ""
+
 #laver beskeden om til store bogstaver
 capitalizedSentence = sentence.upper()
 #sender beskeden tilbage til clienten
